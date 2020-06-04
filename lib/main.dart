@@ -16,7 +16,7 @@ class XylophoneApp extends StatelessWidget {
         color: keyColor,
         onPressed: () {
           playSound(number);
-        },
+        }, child: null,
       ),
     );
   }
